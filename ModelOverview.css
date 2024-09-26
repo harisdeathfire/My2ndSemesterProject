@@ -1,0 +1,540 @@
+.details
+{
+    display: flex;
+    margin-left: 800px;
+    margin-top: -10px;
+}
+.nav
+{
+    height: 100px;
+    width: 100%;
+    top: 0;
+}
+.logo{
+    margin-left: 30px;
+    padding-top: 25px;
+    
+}
+
+.personlogo
+{
+    margin-left: 650px;
+    margin-top: -100px;
+    cursor: pointer;
+    transition: 1.1s;
+}
+.personlogo:hover{
+    background-color: black;
+    fill: rgb(255, 253, 253);
+}
+.h1
+{
+    
+    margin-top: 200px;
+    font-size: 50px;
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.logoporsche{
+background-image: url(https://famfonts.com/wp-content/uploads/porsche-wide.png);
+height: 100px;
+width: 500px;
+background-position: center;
+background-size: cover;
+margin-left: 500px;
+margin-top: -20px;
+
+}
+
+/*.off-screen-menu {
+    background-color:  rgb(255, 255, 255);
+    height: 100vh;
+    width: 100%;
+    max-width: 450px;
+    position: fixed;
+    top: 0;
+    left: -450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    transition: .3s ease;
+}
+.off-screen-menu.active {
+    left: 0;
+}
+
+
+.ham-menu {
+    height: 50px;
+    width: 40px;
+    margin-right: auto;
+    position: relative;
+    margin-left: 10px;
+}
+.ham-menu span {
+    height: 5px;
+    width: 100%;
+    background-color: #0b0b0b;
+    border-radius: 25px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s ease;
+}
+.ham-menu span:nth-child(1) {
+    top: 25%;
+}
+.ham-menu span:nth-child(3) {
+    top: 75%;
+}
+.ham-menu.active span {
+    background-color: rgb(15, 15, 15);
+}
+.ham-menu.active span:nth-child(1) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.ham-menu.active span:nth-child(2) {
+    opacity: 0;
+}
+.ham-menu.active span:nth-child(3) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.ham-list{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: black;
+    text-align: left;
+    margin-left: -150px;
+    line-height: 50px;
+    font-weight: 400;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    
+}
+
+.ham-arrow{
+    margin-left: 200px;
+    margin-top: -55px;
+}
+*/
+
+
+/*PageFooter*/
+footer {
+    margin-top: auto;
+    background-color: rgba(0, 0, 0, 1);
+    padding:10px;
+    text-align: center;
+    margin-top: 13px;
+    margin-top: 200px;
+    
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+    margin:5px 10px;
+}
+.language {
+    margin-top: 10px;
+}
+
+.language-btn {
+    background: none;
+    color: gray;
+    border: 1px solid gray;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:16px;
+}
+
+.language-btn:hover{
+    background-color: whitesmoke;
+    color: black;
+    z-index: 2;
+}
+
+
+.instagramlogo{
+    margin-left: 800px;
+    margin-top: -30px;
+    }
+    .facebooklogo{
+        margin-left: 900px;
+    margin-top: -30px;
+    }
+    .Xlogo{
+        margin-left: 1000px;
+    margin-top: -30px;
+    }
+    .youtubelogo{
+        margin-left: 1100px;
+    margin-top: -30px;
+    }
+    .googlelogo{
+        margin-left: 1200px;
+    margin-top: -30px;
+    }
+    .footerlogo{
+        height: 100px;
+        width: 500px;
+        margin-left: 500px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        background-image: url(https://famfonts.com/wp-content/uploads/porsche-wide.png);
+        background-position: center;
+        background-size: cover;
+        filter: invert(100%);
+    
+    }
+
+/*Heading & buttons*/
+
+ .heading {
+    margin-left: 100px;
+}
+.heading1 {
+    font-size: larger;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.heading1 p {
+    font-weight: 600;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+.btn {
+    width: 150px;
+    height: 40px;
+    text-align: left;
+    padding-left: 15px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-size: medium;
+    display: block;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+.btn:hover {
+    background-color:rgb(248, 52, 52);
+    color: white;
+}
+
+/* 911 CarCard*/
+
+.heading2 {
+    font-size: medium;
+    font-weight: 800;
+    margin-left: 400px;
+    margin-top: -300px;
+    display: flex;
+    flex-direction: column;
+}
+.heading2:hover
+{
+    color:rgb(248, 52, 52) ;
+}
+.Carcard
+{
+    height: 150px;
+    width: 150px;
+
+}
+.text
+{
+    color: rgb(78, 78, 78);
+    margin-left:20px;
+}
+.Carcard2
+{
+    height: 150px;
+    width: 150px;
+    margin-left: 1000px;
+    margin-top: -150px;
+
+}
+.text2
+{
+    color: rgb(78, 78, 78);
+    margin-left:20px;
+}
+.text3
+{
+    color: rgb(78, 78, 78);
+    margin-left:25px;
+}
+.Carcard4
+{
+    height: 150px;
+    width: 150px;
+   margin-left: 400px;
+   margin-top: 150px;
+}
+.text4
+{
+    color: rgb(78, 78, 78);
+    margin-left:25px;
+}
+.Carcard5
+{
+    height: 150px;
+    width: 150px;
+   margin-left: 1000px;
+   margin-top: -150px;
+}
+.text5
+{
+    color: rgb(78, 78, 78);
+    margin-left:25px;
+}
+
+.text6
+{
+    color: rgb(78, 78, 78);
+    margin-left:25px;
+}
+
+/*Taycan CarCard*/
+
+.heading3 {
+    font-size: medium;
+    font-weight: 800;
+    margin-left: 400px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.heading3:hover
+{
+    color:rgb(248, 52, 52) ;
+}
+.Carcard7
+{
+    height: 150px;
+    width: 150px;
+
+}
+.text7
+{
+    color: rgb(78, 78, 78);
+    margin-left:20px;
+}
+.Carcard8
+{
+    height: 150px;
+    width: 150px;
+    margin-left: 1000px;
+    margin-top: -150px;
+
+}
+.text8
+{
+    color: rgb(78, 78, 78);
+    margin-left:20px;
+}
+
+.text9
+{
+    color: rgb(78, 78, 78);
+    margin-left:25px;
+}
+.Carcard10
+{
+    height: 150px;
+    width: 150px;
+   margin-left: 400px;
+   margin-top: 150px;
+}
+.text10
+{
+    color: rgb(78, 78, 78);
+    margin-left:25px;
+}
+.Carcard11
+{
+    height: 150px;
+    width: 150px;
+   margin-left: 1000px;
+   margin-top: -150px;
+}
+.text11
+{
+    color: rgb(78, 78, 78);
+    margin-left:25px;
+}
+
+.text12
+{
+    color: rgb(78, 78, 78);
+    margin-left:25px;
+}
+
+/*Mecan CarCard*/
+
+.heading4 {
+    font-size: medium;
+    font-weight: 800;
+    margin-left: 400px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.heading4:hover
+{
+    color:rgb(248, 52, 52) ;
+}
+.Carcard13
+{
+    height: 150px;
+    width: 150px;
+
+}
+.text13
+{
+    color: rgb(78, 78, 78);
+    margin-left:20px;
+}
+.Carcard14
+{
+    height: 150px;
+    width: 150px;
+    margin-left: 1000px;
+    margin-top: -150px;
+
+}
+.text14
+{
+    color: rgb(78, 78, 78);
+    margin-left:20px;
+}
+
+.text15
+{
+    color: rgb(78, 78, 78);
+    margin-left:25px;
+}
+.Carcard16
+{
+    height: 150px;
+    width: 150px;
+   margin-left: 400px;
+   margin-top: 150px;
+}
+.text16
+{
+    color: rgb(78, 78, 78);
+    margin-left:25px;
+}
+.Carcard17
+{
+    height: 150px;
+    width: 150px;
+   margin-left: 1000px;
+   margin-top: -150px;
+}
+.text17
+{
+    color: rgb(78, 78, 78);
+    margin-left:25px;
+}
+
+.text18
+{
+    color: rgb(78, 78, 78);
+    margin-left:25px;
+}
+
+/*Cayenne CarCard*/
+
+.heading5 {
+    font-size: medium;
+    font-weight: 800;
+    margin-left: 400px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.heading5:hover
+{
+    color:rgb(248, 52, 52) ;
+}
+.Carcard19
+{
+    height: 150px;
+    width: 150px;
+
+}
+.text19
+{
+    color: rgb(78, 78, 78);
+    margin-left:20px;
+}
+.Carcard20
+{
+    height: 150px;
+    width: 150px;
+    margin-left: 1000px;
+    margin-top: -150px;
+
+}
+.text20
+{
+    color: rgb(78, 78, 78);
+    margin-left:20px;
+}
+
+.text21
+{
+    color: rgb(78, 78, 78);
+    margin-left:25px;
+}
+.Carcard22
+{
+    height: 150px;
+    width: 150px;
+   margin-left: 400px;
+   margin-top: 150px;
+}
+.text22
+{
+    color: rgb(78, 78, 78);
+    margin-left:25px;
+}
+.Carcard23
+{
+    height: 150px;
+    width: 150px;
+   margin-left: 1000px;
+   margin-top: -150px;
+}
+.text23
+{
+    color: rgb(78, 78, 78);
+    margin-left:25px;
+
+}
+

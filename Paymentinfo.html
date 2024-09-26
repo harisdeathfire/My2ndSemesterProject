@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>Porsche</title>
+    <link rel="stylesheet" href="Paymentinfo.css">
+</head>
+<body>
+    <div class="nav">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="ham-menu" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+        </svg>
+        <div class="logoporsche"></div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="personlogo" viewBox="0 0 16 16">
+            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+        </svg>
+    </div>
+
+    <form id="paymentForm">
+        <h1>INFORMATION</h1>
+        <label for="Name">Enter Name</label><br>
+        <input class="box1" type="text" name="Name" id="Name" placeholder="Enter name" required><br>
+        <label for="Email">Email</label><br>
+        <input class="box1" type="email" name="Email" id="Email" placeholder="Enter Email" required><br>
+        <label for="CNIC">Enter CNIC</label><br>
+        <input class="box1" type="text" name="CNIC" id="CNIC" placeholder="XXXXXXXXXXXXX" required><br>
+        <label for="Age">Age</label><br>
+        <input class="box2" type="number" name="Age" id="Age" placeholder="Age" required><br>
+        <label for="Gender">Gender</label><br>
+        <input class="box2" type="text" name="Gender" id="Gender" placeholder="Gender" required><br>
+        <label for="City">City</label><br>
+        <input class="box2" type="text" name="City" id="City" placeholder="Enter City" required><br>
+        <button class="btn" type="button" onclick="pay()">Pay Now</button>
+        <button class="btn" type="button">Home</button>
+    </form>
+
+    <script src="paymentinfo.js"></script>
+</body>
+</html>
